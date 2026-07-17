@@ -1,1 +1,22 @@
-# Web-MySQL-Toggle
+# Web - Task2: Member Registry 
+
+**Live demo:** http://rafeef-webtask2.infinityfreeapp.com
+
+## What this does
+A form takes a name and age, saves them to a MySQL table, and lists every saved member in a table below the form. Each row has a switch that flips the member's status between Active (1) and Inactive (0), updating instantly with no page reload.
+
+## Files
+- `database.sql` - creates the database and the `users` table, with sample rows
+- `config.php` - database connection settings
+- `index.php` - the form and the roster table, handles saving new entries
+- `toggle.php` - endpoint called by JavaScript to flip a row's status
+- `script.js` - sends the toggle request and updates the row in place
+- `style.css` - the visual design (custom design system, not a template)
+
+## Setup and Deployment
+1. The web was developed in Visual Studio Code.
+2. XAMPP was used to run Apache and MySQL locally.
+3. The database was created and tested using phpMyAdmin.
+4. After local testing was completed, the database schema was imported into InfinityFree.
+5. The remaining files were uploaded through the InfinityFree File Manager.
+6. The public URL was generated from the hosting service after deployment.
