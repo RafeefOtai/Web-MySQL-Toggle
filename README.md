@@ -1,6 +1,6 @@
 # Web & Apps Task 2: Member Registry
 
-**Live demo:** http://rafeef-webtask2.infinityfreeapp.com
+**Link:** http://rafeef-webtask2.infinityfreeapp.com
 
 ---
 
